@@ -1,0 +1,22 @@
+.DS_Store
+
+build
+.env
+node_modules
+
+#IDE
+.idea
+
+newrelic_agent.log
+coverage
+
+test-report.xml
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
+
+.serverless
+serverless/**/node_modules
+
+**/*sponsors.test.json

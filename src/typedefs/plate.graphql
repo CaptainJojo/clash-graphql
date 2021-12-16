@@ -1,0 +1,4 @@
+type Plate {
+  ingredients: [Ingredient!]!
+  totalCalories: Int!
+}

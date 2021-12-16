@@ -1,0 +1,7 @@
+type Ingredient {
+  id: ID!
+  name: String!
+  calorie: Int!
+  protein: Int!
+  file: String!
+}
